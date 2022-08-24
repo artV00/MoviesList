@@ -4,7 +4,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 public class AppUserDTO {
-    @NotEmpty(message = "Enter your firstname")
+    @NotEmpty(message = "Enter your firstname!!!")
     private String firstName;
 
     @NotEmpty(message = "Enter your lastname")
